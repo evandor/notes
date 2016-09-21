@@ -56255,7 +56255,7 @@ module.exports = ""
 /* 594 */
 /***/ function(module, exports) {
 
-module.exports = "<h1>\n  {{title}}\n</h1>\n<table>\n  <tr>\n    <td>Local Storage</td>\n    <td><b>Notes</b></td>\n    <td>Content of Notes</td>\n  </tr>\n</table>"
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-4\"  style=\"background-color:gray\">\n      Local Storage\n    </div>\n    <div class=\"col-sm-4\">\n      Notes\n    </div>\n    <div class=\"col-sm-4\">\n      Content of Notes\n    </div>\n  </div>\n</div>"
 
 /***/ },
 /* 595 */
