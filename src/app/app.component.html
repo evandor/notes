@@ -6,17 +6,18 @@
     <div class="col-sm-3">
       Notes (<a (click)="addNote()">+</a>)
       <ul *ngFor="let note of localNotes">
-        <li>{{note.title}}</li>
+        <li (click)="showNote(note)">{{note.title}}</li>
       </ul>
     </div>
     <div class="col-sm-7">
 
       <form (ngSubmit)="onSubmit()" #heroForm="ngForm">
         <div class="form-group">
-          <label for="exampleTextarea">New Note</label>
-          <textarea class="form-control" id="content" rows="3" required [(ngModel)]="newNote.content" name="content"></textarea>
+          <label for="exampleTextarea">New Note ({{editorstate}})</label>
+          <textarea class="form-control" id="content" rows="3" required [(ngModel)]="newNote.content" name="content" (keypress)="setDirty(true)"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-success" (click)="setDirty(false)">Reset</button>
       </form>
 
     </div>

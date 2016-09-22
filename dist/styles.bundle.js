@@ -316,7 +316,7 @@ function updateLink(linkElement, obj) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(588);
+var content = __webpack_require__(589);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(326)(content, {});
@@ -343,7 +343,7 @@ if(false) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(589);
+var content = __webpack_require__(590);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(326)(content, {});
@@ -364,7 +364,7 @@ if(false) {
 
 /***/ },
 
-/***/ 588:
+/***/ 589:
 /***/ function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(322)();
@@ -379,7 +379,7 @@ exports.push([module.i, "/*!\n * Bootstrap v4.0.0-alpha.4 (http://getbootstrap.c
 
 /***/ },
 
-/***/ 589:
+/***/ 590:
 /***/ function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(322)();
@@ -394,7 +394,7 @@ exports.push([module.i, "/* You can add global styles to this file, and also imp
 
 /***/ },
 
-/***/ 611:
+/***/ 612:
 /***/ function(module, exports, __webpack_require__) {
 
 __webpack_require__(333);
@@ -403,5 +403,5 @@ module.exports = __webpack_require__(332);
 
 /***/ }
 
-},[611]);
+},[612]);
 //# sourceMappingURL=styles.map
